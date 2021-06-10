@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://goitacademy.github.io/goit-js-hw-10-food-service",
+  "homepage": "https://anurov-prihodko.github.io/goit-js-hw-10-food-service",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-service/"
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/Anurov-Prihodko/goit-js-hw-10-food-service.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Oleksii Anurov-Prikhodko <amyr.prihodko2akk@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Anurov-Prihodko/goit-js-hw-10-food-service/issues"
