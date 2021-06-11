@@ -25,8 +25,8 @@ function chengeTheme() {
   
     if (checked === true) {        
         localStorage.setItem('themeIsNow', Theme.DARK);
-refs.choseBody.classList.add(Theme.DARK);
-    refs.choseBody.classList.remove(Theme.LIGHT);
+        refs.choseBody.classList.add(Theme.DARK);
+        refs.choseBody.classList.remove(Theme.LIGHT);
 
     } else if (checked === false) {
         refs.choseBody.classList.remove(Theme.DARK);
