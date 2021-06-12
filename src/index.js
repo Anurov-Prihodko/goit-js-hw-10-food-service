@@ -5,7 +5,7 @@ import './sass/main.scss';
 
 const refs = {
     chekboxInput: document.querySelector('#theme-switch-toggle'),
-    choseBody: document.querySelector('body'),
+    choseBody: document.body,
     markup: document.querySelector('.menu.js-menu'),
 }
 
@@ -19,19 +19,16 @@ const Theme = {
 
 function chengeTheme() {
     const checked = refs.chekboxInput.checked;
-    // console.log(checked);
-
-    
+    // console.log(checked);   
   
-    if (checked === true) {        
+    if (checked) {        
         localStorage.setItem('themeIsNow', Theme.DARK);
         refs.choseBody.classList.add(Theme.DARK);
         refs.choseBody.classList.remove(Theme.LIGHT);
-
-    } else if (checked === false) {
+    } else {
         refs.choseBody.classList.remove(Theme.DARK);
         refs.choseBody.classList.add(Theme.LIGHT);
-        localStorage.removeItem('themeIsNow');              
+            
         localStorage.setItem('themeIsNow', refs.choseBody.classList);
     }
 };
